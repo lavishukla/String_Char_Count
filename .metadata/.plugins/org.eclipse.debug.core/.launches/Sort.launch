@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/String_Bubble_sort/src/com/ss/Sort.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.ss.Sort"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="String_Bubble_sort"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="String_Bubble_sort"/>
+</launchConfiguration>

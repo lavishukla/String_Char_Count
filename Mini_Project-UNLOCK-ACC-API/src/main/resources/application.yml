@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: manager
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+      
+server:
+  port: 9090
+  
+UNLOCK-APP:
+  messages:
+    accountUnlocked: Account Unlocked Successfully
+    invalidTempPwd: Invalid Temp Paasword

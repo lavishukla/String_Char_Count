@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Proj18-Spring_Boot-Restful_ProducesConsumes"/>
+<aop-project name="Proj6-Spring_Boot-DataJPA-TimeStamping"/>
+<aop-project name="Proj19.2-MS-stock-price-calc-api"/>
+<aop-project name="Proj4-Spring_Boot-DataJPA-findByXXX"/>
+<aop-project name="Proj11-Spring_Boot-WebApp"/>
+<aop-project name="Proj17-Spring_Boot-Restful_Produces"/>
+<aop-project name="Proj2-Spring_Boot-DataJPA-PagingAndSortingRepository"/>
+<aop-project name="Mini_Project-1"/>
+<aop-project name="Proj3-Spring_Boot-DataJPA-QueryByExampleExecuter"/>
+<aop-project name="Proj19.0-MS-ServiceResgistry"/>
+<aop-project name="Proj19.3-MS-cloud_gateway"/>
+<aop-project name="Proj13-Spring_Boot-EmbeddedDB"/>
+<aop-project name="Proj5-Spring_Boot-DataJPA-CustomQuery"/>
+<aop-project name="Proj8-Spring_Boot-DataJPA-CustomGenerator"/>
+<aop-project name="Proj19.1-MS-stock-price-api"/>
+<aop-project name="Proj7-Spring_Boot-DataJPA-Generator"/>
+<aop-project name="Proj12-Spring_Boot-Form"/>
+<aop-project name="Proj10-Spring_Boot-WebApp"/>
+<aop-project name="Proj16-Spring_Boot-RestAPI"/>
+<aop-project name="Proj1-Spring_Boot-DataJPA"/>
+<aop-project name="Proj9-Spring_Boot-DataJPA-CompositePrimaryKey"/>
+<aop-project name="Proj14-Spring_Boot-Thymeleaf"/>
+</aop-reference-model>

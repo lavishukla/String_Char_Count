@@ -1,0 +1,16 @@
+package com.nt.converter;
+
+import com.nt.bindings.Student;
+
+public class Marshelling {
+
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+		st.setId(101);
+		st.setName("Shashank");
+		st.setRank(12123);
+
+	}
+
+}

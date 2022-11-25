@@ -1,0 +1,25 @@
+package com.nt.converter;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+
+import com.nt.bindings.Student;
+
+public class Marshelling {
+
+	public static void main(String[] args) throws Exception{
+		
+		Student st = new Student();
+		st.setId(101);
+		st.setName("Shashank");
+		st.setRank(12123);
+		
+		 JAXBContext instance = JAXBContext.newInstance(Student.class);
+		 Marshaller marshaller = instance.createMarshaller();
+		 marshaller.marshal(st, new File("student.xml"));
+		 System.out.println("Marshelling Completed.");
+	}
+
+}

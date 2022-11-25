@@ -1,0 +1,15 @@
+package com.nt.converter;
+
+import javax.xml.bind.JAXBContext;
+
+import com.nt.bindings.Student;
+
+public class UnMarshelling {
+
+	public static void main(String[] args) throws Exception{
+		
+		JAXBContext instance = JAXBContext.newInstance(Student.class);
+
+	}
+
+}

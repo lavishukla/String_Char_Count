@@ -1,0 +1,16 @@
+package com.nt.RestController;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Welcome {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    gateway: 
+      discover.locator:
+        enabled: true
+        lowerCaseServiceId: true
+      routes:
+      - id: stock-price-api
+        uri: lb://STOCK-PRICE-API
+        predicates:
+        - Path=/price/{companyName} 
+      - id: stock-price-calc-api
+        uri: lb://STOCK-PRICE-CALC-API
+        predicates:
+        - Path=/calc/{companyName}/{qty}
+  
+  application:
+    name: CLOUD-GATEWAY-API
+ 
+spring:    
+  server:
+    port: 3333
+  
+   
